@@ -1,0 +1,6 @@
+about-view {
+  display: block;
+  box-sizing: border-box;
+  padding: var(--lumo-space-m);
+  height: 100%;
+}
