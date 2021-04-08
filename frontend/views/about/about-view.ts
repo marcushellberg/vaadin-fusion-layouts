@@ -9,6 +9,10 @@ import "@vaadin/vaadin-grid/vaadin-grid-column";
 @customElement("about-view")
 export class AboutView extends View {
   render() {
-    return html` <marquee><h1>Layouting in Vaadin Fusion</h1></marquee> `;
+    return html`
+      <marquee>
+        <h1>Layouting in Vaadin Fusion</h1>
+      </marquee>
+    `;
   }
 }
